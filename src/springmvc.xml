@@ -8,18 +8,18 @@
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
 
-        <!--扫描@Controller @Service-->
-        <context:component-scan base-package="com.sunxu"></context:component-scan>
+    <!--扫描@Controller @Service-->
+    <context:component-scan base-package="com.sunxu"></context:component-scan>
 
-        <!--处理器映射器
-        <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
-        处理器适配器
-        <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
-        注解驱动-->
-        <mvc:annotation-driven/>
+    <!--处理器映射器
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
+    处理器适配器
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
+    注解驱动-->
+    <mvc:annotation-driven/>
 
-        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-                <property name="prefix" value="/WEB-INF/jsp/"/>
-                <property name="suffix" value=".jsp"/>
-        </bean>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 </beans>

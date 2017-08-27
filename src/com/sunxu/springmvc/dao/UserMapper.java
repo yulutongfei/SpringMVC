@@ -1,7 +1,7 @@
 package com.sunxu.springmvc.dao;
 
-import com.itheima.springmvc.pojo.User;
-import com.itheima.springmvc.pojo.UserExample;
+import com.sunxu.springmvc.pojo.User;
+import com.sunxu.springmvc.pojo.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
